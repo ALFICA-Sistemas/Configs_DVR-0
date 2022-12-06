@@ -1,0 +1,13 @@
+127.0.0.1	localhost
+127.0.1.1	Alfica-TV0.alfica.red	Alfica-TV0
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+192.1.1.231	dvr1.alfica.red
+192.1.1.232	dvr2.alfica.red
+192.1.1.233	dvr3.alfica.red
+192.1.1.234	dvr4.alfica.red
+192.1.1.235	dvr5.alfica.red

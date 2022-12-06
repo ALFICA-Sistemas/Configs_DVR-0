@@ -1,0 +1,11 @@
+# .----------------- minute (0 - 59)
+# |  .-------------- hour (0 - 23)
+# |  |   .---------- day of month (1 - 31)
+# |  |   |   .------ month (1 - 12) OR jan,feb,mar,apr ...
+# |  |   |   |   .-- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |   |   |   |
+# m  h  dom mon dow  command
+#50 23   *   *   7   /sbin/shutdown -r now                                               # Reinicio rutinario a la medianoche del domingo
+ */5 *   *   *   *   chmod 666 /dev/video0                                               # Asegurarse que el video sea leible por motion
+ */5 *   *   *   *   chmod 666 /dev/video1                                               # Asegurarse que el video sea leible por motion
+  0  0   *   *   *   /Discos/AlficaTV/Scripts/BakConfigs.sh /Discos/AlficaTV/BakConfigs  # Respaldar configuraciones especiales y subir a GitHub

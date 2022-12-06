@@ -1,0 +1,5 @@
+/etc/dhcpcd.conf
+/etc/fstab
+/etc/hosts
+/etc/resolv.conf
+
