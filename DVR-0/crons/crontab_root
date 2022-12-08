@@ -8,4 +8,4 @@
 #50 23   *   *   7   /sbin/shutdown -r now                                               # Reinicio rutinario a la medianoche del domingo
  */5 *   *   *   *   chmod 666 /dev/video0                                               # Asegurarse que el video sea leible por motion
  */5 *   *   *   *   chmod 666 /dev/video1                                               # Asegurarse que el video sea leible por motion
-  0  0   *   *   *   /Discos/AlficaTV/Scripts/BakConfigs.sh /Discos/AlficaTV/BakConfigs  # Respaldar configuraciones especiales y subir a GitHub
+  0  0   *   *   *   /Discos/AlficaTV/Scripts/BakConfig.sh /Discos/AlficaTV/BakConfigs   # Respaldar configuraciones especiales y subir a GitHub
